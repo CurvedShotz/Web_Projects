@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.superdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex: 1;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+.spans {
+    position: absolute;
+    width: 100%; /* Ensure spans container takes the full space */
+    height: 100%;
+}
+
+.lang {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: large;
+    
+    color: rgb(51, 102, 204);
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the text */
+    margin: 5px;
+}
+
+/* Positioning for Circular Layout */
+.english {
+    top: 25%; /* Near top */
+    right: 50%;
+}
+
+.russian {
+    top: 40%;
+    left: 10%;
+}
+
+.espanol {
+    top: 55%;
+    left: 10%;
+}
+
+.italian {
+    bottom: 20%;
+    left: 15%;
+}
+
+.portugues {
+    bottom: 10%; /* Near bottom */
+    left: 30%;
+}
+
+.japanese {
+    top: 25%;
+    right: -5%;
+}
+
+.deutsch {
+    top: 40%;
+    right: -15%;
+}
+
+.french {
+    top: 55%;
+    right: -20%;
+}
+
+.chinese {
+    bottom: 17%; /* Near top */
+    left: 90%;
+    font-size: small;
+}
+
+.arabic {
+    bottom: 10%;
+    right: 10%;
+}
+
+.lang p:last-child{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+    color:#54595d;
+    font-weight: 400;
+    line-height: 20.8px;
+    font-size: small;
+ 
+}
+
+
+
+.read_bar{
+    position: absolute;
+    bottom: -80px;
+    left: 60px;
+    width: 350px;
+    height: 30px;
+    border: solid blue 1px;
+    padding-left: 50px;
+    margin: 10px;
+    margin-top: 60px;
+    background-color: antiquewhite;
+    font-size: medium;
+    color: #3566cc;
+}
+
+.head_text{
+    display: flex;
+    justify-content: center;
+    font-family: "Linux Libertine", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+    margin: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    font-size: 32px;
+}
+
+.wikimedia_logo{
+   width: 40px;
+   height: 40px;
+}
+
+.wikipedia_logo{
+    width: 40px;
+    height: 40px;
+}
+
+.wikipedia{
+    font-size: small;
+
+}
+
+.wikimedia{
+    font-size: small;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    margin-left: 90px;
+    padding: 20px;
+    margin-right: 50px;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    
+}
+
+.footer2{
+    display: block;
+    
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    line-height: 25px;
+}
+
+.commons_logo{
+    width: 30px;
+    height: 40px;
+}
+
+.wikibooks_logo{
+    width: 40px;
+    height: 40px;
+}
+
+.first_foot{
+    display: block;
+    
+}
+
+.wikisource_logo{
+    width: 40px;
+    height: 40px;
+}
+
+.metawiki_logo{
+    width: 40px;
+    height: 40px;
+}
+
+.wikiversity_logo{
+    width: 40px;
+    height: 40px;
+}
+
+.logo2{
+    width: 40px;
+    height: 40px;
+}
+
+.footer3{
+   display: block;
+}
+
+.footer4{
+    display: block;
+}
+
+.right_footer{
+    display: flex;
+    justify-content: right;
+    margin-left: 80px;
+}
+
+.search{
+    position: absolute;
+    bottom: -90px;
+    right: 250px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px;
+    margin-top: 70px;
+    
+    display: flex;
+}
+
+
+.search_logo{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background-color: rgb(51, 102, 204);
+    border-radius:4px;
+}
+
+.search_input{
+    width: 460px;
+    height: 50px;
+    padding: 10px;
+    border: solid 1px lightblue ;
+    font-size: 18px;
+    margin: 0;
+    position: relative;
+}
+
+.read_bar_container{
+    display: flex;
+    margin: 20px;
+}
+
+.line{
+    height: 2px;
+    margin: 10px;
+    color: black;
+    width: 50px;
+}
+
+.download_logo{
+    width: 160px;
+    height: 55px;
+}
+

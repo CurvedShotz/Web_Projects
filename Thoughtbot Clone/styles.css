@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibre, system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+}
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    background-color: white;
+}
+
+.head-text {
+    color: black;
+    margin-top: 200px;
+    font-size: x-large;
+}
+
+.head_bottom_text{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    color: red;
+}
+
+.nav-link{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link a{
+    color: dimgray;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-btn{
+    padding: 13.5px 27px;
+    border-radius: 30px;
+    background-color: #e03131;
+    border: none;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.glass{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+
+
+.container{
+    margin: 10px;
+    margin-left: 50px;
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.topics{
+    display: flexbox;
+    margin-top: 5%;
+
+}
+
+.zero{
+   
+    border-radius: 50px;
+    padding: 15px;
+    margin: 5px;
+    width: 3%;
+    background-color: rgb(224, 49, 49);
+    color: antiquewhite;
+}
+
+.mini{
+    border: solid black 1px;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 5px;
+    width: 3%;
+}
+
+.mini:hover{
+    border: rgb(224, 49, 49) solid 1px;
+    color: rgb(224, 49, 49);
+}
+
+.blog1_text{
+    display: flex;
+}
+
+.blog1_name{
+    color: #ce2d2d;
+    
+}
+
+.blog1{
+    /* /* margin-left: 15%; */
+    margin-top: 5%; 
+    margin-bottom: 40px;
+}
+.blog2{
+    margin-top: 5%; 
+    margin-bottom: 40px;
+}
+
+.blog3{
+    margin-top: 5%; 
+    margin-bottom: 40px;
+}
+
+.sign_up{
+    background-color: antiquewhite;
+    width: 700px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.input_field{
+    width: 500px;
+    height: 55px;
+}
+
+.input_button{
+    width: 150px;
+    height: 60px;
+    padding: 13.5px 27px;
+    border-radius: 30px;
+    background-color: #e03131;
+    border: none;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.blog5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    color: #e03131;
+   
+}
+
+.thotbot{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    color: #e03131;
+    margin-top: 60px;
+}
+
+.foot_end{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    color: #d2f1fe;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 21.6px;
+    width: 100%;
+    
+
+}
+
+.footer{
+    background-color:rgb(41, 41, 44);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    margin-left: 0;
+    
+}
+
+.left-foot{
+    display: block;
+    text-decoration: #d2f1fe;
+    margin-left: 150px;
+}
+
+.rightfoot{
+   display: block;
+}
+
+.line{
+    width: 50px;
+    height: 2px;
+    color: black;
+}
+
+.ft_text{
+    color: #d2f1fe;
+}
+.ft_text:hover{
+    color: #ce2d2d;
+}
+
+.end_text{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    margin-top: 100px;
+    color: #b5b5c0;
+}
+
+.end_text a{
+    color: #b5b5c0;
+}
+
+.end_text a:hover{
+    color: #e03131;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 70%;
+        margin: auto;
+        font-size: 20px;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sign_up{
+       
+        width: 280px;
+        height: 180px;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 50px;
+        font-size: x-small; 
+    }
+    
+    .input_field{
+        width: 150px;
+        height: 40px;
+    }
+    
+    .input_button{
+        width: 60px;
+        height: 30px;
+        padding: 3px;
+        border-radius: 30px;
+        
+        border: none;
+        
+        font-weight: 300;
+        font-size: 10px;
+        margin: 10px;
+    }
+    .topics{
+        display: flex;
+        margin-top: 5%;
+        width: 70px;
+        height: 20px;
+        font-size: xx-small;
+        padding: 5px;
+        padding-bottom: 20px;
+        margin: 2px;
+    }
+
+    .foot_end{
+        justify-content: center;
+        scale: 70%;
+    }
+
+    .end_text{
+        gap: 30px;
+        font-size: x-small;
+        display: flex;
+    }
+    
+    .blogs{
+        font-size: small;
+        margin-top: 30px;
+    }
+    .container{
+        font-size: small;
+        
+    }
+
+    .nav{
+        
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        height: 50px;
+        font-size: xx-small;
+        top: 0;
+     
+        
+    }
+    
+    .nav-item{
+        scale: 70%;
+        display: flex;
+        justify-content: left;
+        margin: 0;
+        margin-left: -35px;
+    }
+
+    .nav-link{
+        scale: 60%;
+        gap: 2px;
+        font-size: xx-small;
+        margin-left: -70px;
+    }
+
+    .nav-btn{
+        scale: 20%;
+        padding: 10px;
+        width: 130px;
+        margin-left: -40px;
+        margin-top: -190px;
+        
+    }
+
+    .glass{
+        scale: 60%;
+        margin-left: -50px;
+        margin-top: 50px;
+        
+    }
+}
